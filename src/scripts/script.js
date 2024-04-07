@@ -37,7 +37,6 @@ $("a[href='#to_promotions']").click(function() {
 });
 
 
-
 // slider-menu
 $('.menu-slider-items').slick({
     infinite: true,
@@ -133,22 +132,24 @@ $('#create-order').click(function () {
         hasError = true;
     }
     if(!hasError) {
-        loader.css('display', 'flex');
-        $.ajax({
-            method: "POST",
-            url: "http://testologia.site/checkout",
-            data: { name: name.val(), telephone: telephone.val() }
-        })
-            .done(function( msg ) {
-                loader.hide();
-                if(msg.success) {
-                    orderForm.css('display', 'none');
-                    orderStatus.css('display', 'flex');
-                } else {
-                    alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
-                }
-                console.log(msg.success);
-            });
+        orderForm.css('display', 'none');
+        orderStatus.css('display', 'flex');
+        // loader.css('display', 'flex');
+        // $.ajax({
+        //     method: "POST",
+        //     url: "http://testologia.site/checkout",
+        //     data: { name: name.val(), telephone: telephone.val() }
+        // })
+        //     .done(function( msg ) {
+        //         loader.hide();
+        //         if(msg.success) {
+        //             orderForm.css('display', 'none');
+        //             orderStatus.css('display', 'flex');
+        //         } else {
+        //             alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
+        //         }
+        //         console.log(msg.success);
+        //     });
     }
 })
 
