@@ -16,15 +16,15 @@ An adaptive single-page landing site, written using a modern technology stack.
 ## Features:
 <ul>
   <li>
-    slick.js Slider: A responsive and customizable carousel component that provides a seamless slide transition experience.
+    <b>Slider slick.js:</b> A responsive and customizable carousel component that provides a seamless slide transition experience.
   </li>
   <li>
-    Tabs Implemented in Native JS: Interactive tabbed navigation elements built using pure JavaScript, providing a user-friendly content organization.
+    <b>Tabs Implemented in Native JS:</b> Interactive tabbed navigation elements built using pure JavaScript, providing a user-friendly content organization.
   </li>
   <li>
-    Timer Implemented in Native JS: A real-time countdown or count-up timer created with pure JavaScript, enhancing the dynamic nature of the page.
+    <b>Timer Implemented in Native JS:</b> A real-time countdown or count-up timer created with pure JavaScript, enhancing the dynamic nature of the page.
   </li>
   <li>
-    Animation with animate.css and wow.js: Sophisticated animations applied to page elements using animate.css library for ready-to-use CSS animations and wow.js for controlling the timing and triggers of these animations. This combination brings the page to life, improving user engagement.
+    <b>Animation with animate.css and wow.js:</b> Sophisticated animations applied to page elements using animate.css library for ready-to-use CSS animations and wow.js for controlling the timing and triggers of these animations. This combination brings the page to life, improving user engagement.
   </li>
 </ul>
