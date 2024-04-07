@@ -11,5 +11,20 @@ An adaptive single-page landing site, written using a modern technology stack.
   <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-plain.svg" title="jquery" alt="jquery" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/gulp/gulp-plain.svg" title="gulp" alt="gulp" width="40" height="40"/>&nbsp
   <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="sass/scss" alt="sass/scss" width="40" height="40"/>&nbsp;
-
 </div>
+
+## Features:
+<ul>
+  <li>
+    slick.js Slider: A responsive and customizable carousel component that provides a seamless slide transition experience.
+  </li>
+  <li>
+    Tabs Implemented in Native JS: Interactive tabbed navigation elements built using pure JavaScript, providing a user-friendly content organization.
+  </li>
+  <li>
+    Timer Implemented in Native JS: A real-time countdown or count-up timer created with pure JavaScript, enhancing the dynamic nature of the page.
+  </li>
+  <li>
+    Animation with animate.css and wow.js: Sophisticated animations applied to page elements using animate.css library for ready-to-use CSS animations and wow.js for controlling the timing and triggers of these animations. This combination brings the page to life, improving user engagement.
+  </li>
+</ul>
