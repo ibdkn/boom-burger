@@ -2,6 +2,8 @@
 
 An adaptive single-page landing site, written using a modern technology stack.
 
+Link: https://ibdkn.github.io/boom-burger/
+
 ## Technologies
 
 <div>
