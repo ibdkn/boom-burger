@@ -1,6 +1,6 @@
 # Landing page
 
-Этот лендинг был тщательно разработан с использованием HTML, CSS и JavaScript, чтобы обеспечить высокое качество и производительность.
+An adaptive single-page landing site, written using a modern technology stack.
 
 ## Technologies
 
