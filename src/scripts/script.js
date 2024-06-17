@@ -145,9 +145,10 @@ $('#create-order').click(function () {
                 if(msg.success) {
                     orderForm.css('display', 'none');
                     orderStatus.css('display', 'flex');
-                } else {
-                    alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
-                }
+                } 
+                // else {
+                //     alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
+                // }
                 // console.log(msg.success);
             });
     }
