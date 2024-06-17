@@ -148,7 +148,7 @@ $('#create-order').click(function () {
                 } else {
                     alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
                 }
-                console.log(msg.success);
+                // console.log(msg.success);
             });
     }
 })
