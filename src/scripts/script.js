@@ -134,22 +134,22 @@ $('#create-order').click(function () {
     if(!hasError) {
         orderForm.css('display', 'none');
         orderStatus.css('display', 'flex');
-        // loader.css('display', 'flex');
-        // $.ajax({
-        //     method: "POST",
-        //     url: "http://testologia.site/checkout",
-        //     data: { name: name.val(), telephone: telephone.val() }
-        // })
-        //     .done(function( msg ) {
-        //         loader.hide();
-        //         if(msg.success) {
-        //             orderForm.css('display', 'none');
-        //             orderStatus.css('display', 'flex');
-        //         } else {
-        //             alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
-        //         }
-        //         console.log(msg.success);
-        //     });
+        loader.css('display', 'flex');
+        $.ajax({
+            method: "POST",
+            url: "https://testologia.ru/checkout",
+            data: { name: name.val(), telephone: telephone.val() }
+        })
+            .done(function( msg ) {
+                loader.hide();
+                if(msg.success) {
+                    orderForm.css('display', 'none');
+                    orderStatus.css('display', 'flex');
+                } else {
+                    alert('Возникла ошибка при оформлении заказа, позвоните нам и сделайте заказ!');
+                }
+                console.log(msg.success);
+            });
     }
 })
 
